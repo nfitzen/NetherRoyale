@@ -1,0 +1,8 @@
+{
+    "psi-header.variables": [
+        ["copyrightYears","2020"]
+    ],
+    "psi-header.config": {
+        "license": "MIT"
+    }
+}
