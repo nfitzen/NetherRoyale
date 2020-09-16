@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "take_damage": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "netherroyale:tags/on_player_damaged"
+    }
+}

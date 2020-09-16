@@ -1,0 +1,6 @@
+{
+    "values": [
+        "netherroyale:mechanics/crafting/nether_star/init",
+        "netherroyale:mechanics/crafting/tracker/init"
+    ]
+}
