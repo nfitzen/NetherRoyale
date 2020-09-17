@@ -3,5 +3,5 @@
 # SPDX-License-Identifier: MIT
 
 #>
-# @within netherroyale:mechanics/crafting/nether_star/**
+# @within netherroyale:mechanics/crafting/respawn_agent/**
 scoreboard objectives add nr.craft_star minecraft.crafted:minecraft.creeper_spawn_egg

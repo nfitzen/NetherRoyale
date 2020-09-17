@@ -1,0 +1,20 @@
+{
+    "parent": "netherroyale:recipes/root",
+    "criteria": {
+        "has_ghast_tear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ghast_tear"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "netherroyale:tracker"
+        ]
+    }
+}

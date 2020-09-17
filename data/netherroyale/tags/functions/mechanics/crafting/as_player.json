@@ -1,6 +1,6 @@
 {
     "values": [
-        "netherroyale:mechanics/crafting/nether_star/as_player",
+        "netherroyale:mechanics/crafting/respawn_agent/as_player",
         "netherroyale:mechanics/crafting/tracker/as_player"
     ]
 }
