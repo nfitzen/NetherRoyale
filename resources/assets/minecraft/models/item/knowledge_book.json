@@ -1,3 +1,11 @@
 {
-    "parent": "minecraft:item/nether_star"
+    "parent": "minecraft:item/compass",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 7238145
+            },
+            "model": "item/default/knowledge_book"
+        }
+    ]
 }
