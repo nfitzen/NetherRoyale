@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/nether_star",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 7238145
+            },
+            "model": "item/default/ghast_spawn_egg"
+        }
+    ]
+}
