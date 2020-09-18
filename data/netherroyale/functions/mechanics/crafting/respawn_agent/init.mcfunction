@@ -4,4 +4,4 @@
 
 #>
 # @within netherroyale:mechanics/crafting/respawn_agent/**
-scoreboard objectives add nr.craft_star minecraft.crafted:minecraft.creeper_spawn_egg
+scoreboard objectives add nr.craft_star minecraft.crafted:minecraft.ghast_spawn_egg

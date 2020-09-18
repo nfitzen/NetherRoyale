@@ -9,4 +9,3 @@ effect give @a minecraft:saturation 1 20
 tag @a add nr.alive
 
 scoreboard players set $game_started nr.int 1
-gamerule doImmediateRespawn true

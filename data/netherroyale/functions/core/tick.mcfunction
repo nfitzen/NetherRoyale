@@ -2,4 +2,4 @@
 #
 # SPDX-License-Identifier: MIT
 
-execute as @a run function #netherroyale:tick/as_player
+execute as @a run function #netherroyale:core/tick/as_player

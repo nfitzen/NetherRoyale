@@ -5,6 +5,6 @@
 #>
 #
 # @internal
-#declare tag/function #netherroyale:second/as_player
+#declare tag/function #netherroyale:core/second/as_player
 
-execute as @a run function #netherroyale:second/as_player
+execute as @a run function #netherroyale:core/second/as_player

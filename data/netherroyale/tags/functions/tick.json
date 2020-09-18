@@ -1,7 +1,0 @@
-{
-    "values": [
-        "netherroyale:core/tick",
-        "netherroyale:mechanics/tracker/update/main",
-        "netherroyale:mechanics/revive/main"
-    ]
-}

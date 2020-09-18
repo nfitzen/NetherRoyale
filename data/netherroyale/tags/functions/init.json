@@ -1,7 +1,0 @@
-{
-    "values": [
-        "netherroyale:core/init",
-        "#netherroyale:mechanics/crafting/init",
-        "netherroyale:core/second"
-    ]
-}
