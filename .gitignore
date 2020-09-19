@@ -6,6 +6,7 @@
 #
 # SPDX-License-Identifier: MIT
 
+.build/
 releases/
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,visualstudiocode
