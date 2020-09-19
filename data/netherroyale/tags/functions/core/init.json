@@ -1,0 +1,6 @@
+{
+    "values": [
+        "netherroyale:core/init",
+        "#netherroyale:mechanics/crafting/init"
+    ]
+}

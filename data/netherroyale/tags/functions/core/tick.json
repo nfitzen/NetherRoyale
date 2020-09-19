@@ -1,0 +1,6 @@
+{
+    "values": [
+        "netherroyale:core/tick",
+        "netherroyale:mechanics/tracker/update/main"
+    ]
+}

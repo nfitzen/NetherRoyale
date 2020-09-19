@@ -1,5 +1,5 @@
 {
     "values": [
-        "#netherroyale:tick"
+        "#netherroyale:core/tick"
     ]
 }
