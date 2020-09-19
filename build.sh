@@ -9,6 +9,8 @@ else
     ZIP="7z a";
 fi
 
+version=$(git describe --tags --dirty)
+
 rm -r .build/
 mkdir .build releases .build/files
 
@@ -27,9 +29,12 @@ cp -r AESTD/data/minecraft/loot_tables/ files/data/minecraft/
 
 cd files
 
-rm ../../releases/NetherRoyale-$(git describe --tags --dirty).zip
+(version=$version envsubst < ./pack.mcmeta) > ./pack.mcmeta.tmp && \
+    mv ./pack.mcmeta.tmp ./pack.mcmeta
 
-$ZIP ../../releases/NetherRoyale-$(git describe --tags --dirty).zip .reuse/ data/ LICENSE LICENSES/ pack.mcmeta README.md
+rm ../../releases/NetherRoyale-$version.zip
+
+$ZIP ../../releases/NetherRoyale-$version.zip .reuse/ data/ LICENSE LICENSES/ pack.mcmeta README.md
 
 # cd ../..
 
