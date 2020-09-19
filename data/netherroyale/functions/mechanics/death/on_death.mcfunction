@@ -2,6 +2,6 @@
 #
 # SPDX-License-Identifier: MIT
 
-execute if score $game_started nr.int matches 1.. if entity @s[tag=nr.alive] run function netherroyale:mechanics/death/as_player
+execute if score $game_started nr.int matches 1.. if entity @s[tag=nr.alive] at @s run function netherroyale:mechanics/death/as_player
 
 scoreboard players set @s nr.deaths 0

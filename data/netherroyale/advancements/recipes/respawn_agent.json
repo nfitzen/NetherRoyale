@@ -10,8 +10,20 @@
                     }
                 ]
             }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "netherroyale:respawn_agent"
+            }
         }
     },
+    "requirements": [
+        [
+            "has_diamond",
+            "has_the_recipe"
+        ]
+    ],
     "rewards": {
         "recipes": [
             "netherroyale:respawn_agent"

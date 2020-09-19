@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "netherroyale:recipes",
     "ingredients": [
         {
             "item": "minecraft:diamond"

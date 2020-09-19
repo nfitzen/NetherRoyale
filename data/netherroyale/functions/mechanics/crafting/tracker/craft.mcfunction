@@ -8,4 +8,4 @@
 clear @s minecraft:knowledge_book 1
 function netherroyale:mechanics/tracker/give
 
-scoreboard players remove @s nr.craft_tracker 1
+scoreboard players remove @s[scores={nr.craft_tracker=1..}] nr.craft_tracker 1

@@ -3,11 +3,11 @@
 # SPDX-License-Identifier: MIT
 
 tag @s remove nr.no_tracker
-gamemode adventure @s
+gamemode survival @s
 tp ~ ~ ~
 effect give @s minecraft:instant_health 1 20
 effect give @s minecraft:saturation 1 20
-effect give @a[distance=..5] minecraft:resistance 2 1 true
+effect give @a[distance=..5] minecraft:resistance 4 4 true
 effect give @s minecraft:resistance 15 4 false
 
 summon minecraft:lightning_bolt ~ ~ ~

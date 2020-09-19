@@ -2,4 +2,4 @@
 #
 # SPDX-License-Identifier: MIT
 
-execute as @e[type=minecraft:item,nbt={"Item":{"tag":{"tracker":{"enabled":true}}}}] run function netherroyale:mechanics/tracker/update/as_item
+execute if data entity @s {"Item":{"tag":{"tracker":{"enabled":true}}}} run function netherroyale:mechanics/tracker/update/as_item

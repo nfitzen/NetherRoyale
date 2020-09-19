@@ -2,7 +2,6 @@
 #
 # SPDX-License-Identifier: MIT
 
-#declare score_holder $game_started
-#declare score_holder $disable_strider
+execute in minecraft:the_nether run tp ~ ~ ~
 
-#declare tag nr.alive
+execute at @s run spreadplayers ~ ~ 0 1 under 127 false @s

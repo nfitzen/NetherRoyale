@@ -1,0 +1,11 @@
+{
+    "parent": "netherroyale:events/root",
+    "criteria": {
+        "player_damaged": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "netherroyale:tags/on_player_damaged"
+    }
+}

@@ -9,8 +9,6 @@ tag @s add nr.tracker_update
 scoreboard players operation @s nr.team = @p[tag=nr.alive] nr.team
 execute as @a if score @s nr.team = @e[tag=nr.tracker_update,limit=1,sort=nearest] nr.team run tag @s add nr.no_tracker
 
-execute as @a[tag=nr.no_tracker] run say hi
-
 data modify entity @s Item.tag.LodestonePos.X set from entity @p[tag=!nr.no_tracker] Pos[0]
 data modify entity @s Item.tag.LodestonePos.Y set from entity @p[tag=!nr.no_tracker] Pos[1]
 data modify entity @s Item.tag.LodestonePos.Z set from entity @p[tag=!nr.no_tracker] Pos[2]

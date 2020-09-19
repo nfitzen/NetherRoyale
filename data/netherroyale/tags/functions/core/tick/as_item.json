@@ -1,0 +1,6 @@
+{
+    "values": [
+        "netherroyale:mechanics/tracker/update/main",
+        "netherroyale:mechanics/revive/main"
+    ]
+}

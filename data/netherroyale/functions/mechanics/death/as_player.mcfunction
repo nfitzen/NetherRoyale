@@ -5,4 +5,5 @@
 gamemode spectator @s
 tag @s remove nr.alive
 tag @s add nr.no_tracker
-execute at @s run spawnpoint @s ~ ~ ~
+spawnpoint @s ~ ~ ~
+kill @e[type=minecraft:item,nbt={"Item":{"tag":{"stateSponsored":true}}},distance=..3]

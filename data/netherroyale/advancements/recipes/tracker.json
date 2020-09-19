@@ -10,8 +10,20 @@
                     }
                 ]
             }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "netherroyale:tracker"
+            }
         }
     },
+    "requirements": [
+        [
+            "has_ghast_tear",
+            "has_the_recipe"
+        ]
+    ],
     "rewards": {
         "recipes": [
             "netherroyale:tracker"
